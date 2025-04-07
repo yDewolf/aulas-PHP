@@ -1,3 +1,5 @@
+<!-- Não mandei print da tela pois não consegui fazer o localhost no meu PC -->
+
 <?php
 
 $users = [
@@ -24,6 +26,8 @@ $users = [
     <title>Document</title>
 </head>
 <body>
+
+
     <center>
     <form method="POST" action="login.php">
         <label for="username">Username</label>
@@ -35,6 +39,30 @@ $users = [
         <input type="submit" value="Login">
     </form>
     </center>
+
+<?php
+    // Verifica se o formulário foi enviado
+if ($_SERVER["REQUEST_METHOD"] == "POST") {
+    // Sanitiza e valida as entradas
+    $username = filter_input(INPUT_POST, 'username', FILTER_SANITIZE_FULL_SPECIAL_CHARS);
+    $password = filter_input(INPUT_POST, 'password', FILTER_SANITIZE_FULL_SPECIAL_CHARS);
+
+    // Verifica as credenciais
+    foreach ($users as $user) {
+        if ($user['username'] === $username && password_verify($password, $user['password'])) {
+            $login_successful = true;
+            break;
+        }
+    }
+
+    if ($login_successful) {
+        echo "Login successful!";
+    } else {
+        echo "Invalid username or password.";
+    }
+}
+?>
+
 
 
     
