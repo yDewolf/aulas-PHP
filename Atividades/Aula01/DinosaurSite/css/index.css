@@ -1,0 +1,48 @@
+nav{
+    display: flex;
+
+    .nav-img{
+        width: 7%;
+        margin-right: 30px; 
+        
+    }
+
+    .nav-link{
+        margin: auto;
+        text-decoration: none;
+    }
+}
+
+.info{
+    display: flex;
+    margin-top: 100px;
+
+    
+    .left, .right{
+        width: 50%;
+    }
+
+    .text{
+        margin-right: auto;
+        width: 50%;
+        font-size: 25px;
+    }
+
+    .text2{
+        margin-left: auto;
+        text-align: right;
+        width: 50%;
+        font-size: 25px;
+    }
+
+    .info-img{
+        margin: auto;
+        width: 50%;
+
+        img{
+            width: 110%;
+            border-radius: 10px;
+        }
+    }
+
+}
