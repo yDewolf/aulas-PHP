@@ -1,15 +1,23 @@
+body{
+    margin: 0%;
+}
+
 nav{
     display: flex;
+    height: 100px;
+    padding: 20px;
+    background-color: rgb(226, 226, 226);
+    
 
     .nav-img{
-        width: 7%;
+        width: 9%;
         margin-right: 30px; 
-        
     }
 
     .nav-link{
         margin: auto;
         text-decoration: none;
+        color: black;
     }
 }
 
@@ -23,15 +31,16 @@ nav{
     }
 
     .text{
-        margin-right: auto;
-        width: 50%;
+        padding: auto;
+        margin: auto;
+        width: 80%;
         font-size: 25px;
     }
 
     .text2{
-        margin-left: auto;
+        margin: auto;
         text-align: right;
-        width: 50%;
+        width: 80%;
         font-size: 25px;
     }
 
