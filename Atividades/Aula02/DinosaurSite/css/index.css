@@ -33,6 +33,11 @@ nav{
         margin: auto;
         width: 80%;
         font-size: 25px;
+
+        h3{
+            margin-top: 15px;
+            margin-bottom: 20px;
+        }
     }
 
     .text2{
@@ -40,6 +45,12 @@ nav{
         text-align: right;
         width: 80%;
         font-size: 25px;
+
+        
+        h3{
+            margin-top: 10px;
+            margin-bottom: 20px;
+        }
     }
 
     .info-img{
