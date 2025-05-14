@@ -73,22 +73,14 @@ footer {
 
 /* Home css part */
 
-.banner-div {
-  width: 100%;
-
-  video {
-    height: 900px;
-    width: 100%;
-    object-fit: cover;
-  }
+.home-image{
+  background-image: url("https://gaming-cdn.com/images/products/8421/screenshot/prehistoric-kingdom-pc-game-steam-wallpaper-4.jpg?v=1706028862");
 }
 
 .nav-home {
-    position: absolute;
-    top: 0;
     width: 100%;
     display: flex;
-    padding: 20px;
+    padding: 10px;
     background-color: rgb(0, 0, 0,0.5);
 
     .nav-imgHome {
@@ -114,7 +106,7 @@ footer {
                 text-decoration: none;
                 text-align: center;
                 font-size: 12px;
-                color: black;
+                color: rgb(255, 255, 255);
             }
         }
     }
@@ -132,10 +124,6 @@ footer {
             }
         }
     }
-
-
-
-
         
 }
 
