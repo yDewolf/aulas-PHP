@@ -70,19 +70,24 @@ nav{
 footer {
     margin-top: 50px;
     height: 150px;
-    background-color: rgb(226, 226, 226);
+    background-color: black;
 
 }
 
 /* Home css part */
 
 .banner-div{
-    position: absolute;
+    width: 100%;
+
+    video {
+        width: 100%;
+    }
 }
 
 .nav-home{
-    display: flex;
     position: absolute;
+    top: 0;
+    display: flex;
 
     img{
         width: 10%;
