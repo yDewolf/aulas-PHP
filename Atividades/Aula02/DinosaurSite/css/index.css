@@ -1,143 +1,177 @@
-body{
-    margin: 0;
-    overflow-x: hidden;
+body {
+  margin: 0;
+  overflow-x: hidden;
+  background-color: #333533
 }
 
-nav{
-    display: flex;
-    padding: 20px;
-    background-color: rgb(226, 226, 226);
-    
+nav {
+  display: flex;
+  padding: 20px;
+  background-color: rgb(226, 226, 226);
 
-    .nav-img{
-        width: 7%;
-        margin-right: 30px; 
-    }
+  .nav-img {    
+    width: 7%;
+    margin-right: 30px;
+  }
 
-    .nav-link{
-        margin: auto;
-        text-decoration: none;
-        color: black;
-    }
+  .nav-link {
+    margin: auto;
+    text-decoration: none;
+    color: black;
+  }
 }
 
-.info{
-    display: flex;
-    margin-top: 100px;
+.info {
+  display: flex;
+  margin-top: 100px;
 
-    
-    .left, .right{
-        width: 50%;
+  .left,
+  .right {
+    width: 50%;
+  }
+
+  .text {
+    margin: auto;
+    width: 80%;
+    font-size: 25px;
+
+    h3 {
+      margin-top: 15px;
+      margin-bottom: 20px;
     }
+  }
 
-    .text{
-        margin: auto;
-        width: 80%;
-        font-size: 25px;
+  .text2 {
+    margin: auto;
+    text-align: right;
+    width: 80%;
+    font-size: 25px;
 
-        h3{
-            margin-top: 15px;
-            margin-bottom: 20px;
-        }
+    h3 {
+      margin-top: 10px;
+      margin-bottom: 20px;
     }
+  }
 
-    .text2{
-        margin: auto;
-        text-align: right;
-        width: 80%;
-        font-size: 25px;
+  .info-img {
+    margin: auto;
+    width: 75%;
 
-        
-        h3{
-            margin-top: 10px;
-            margin-bottom: 20px;
-        }
+    img {
+      margin: auto;
+      width: 100%;
+      border-radius: 10px;
     }
-
-    .info-img{
-        margin: auto;
-        width: 75%;
-
-        img{
-            margin: auto;
-            width: 100%;
-            border-radius: 10px;
-        }
-    }
-
+  }
 }
 
 footer {
-    margin-top: 50px;
-    height: 150px;
-    background-color: black;
-
+  margin-top: 50px;
+  height: 150px;
+  background-color: rgb(185, 142, 0);
 }
 
 /* Home css part */
 
-.banner-div{
-    width: 100%;
+.banner-div {
+  width: 100%;
 
-    video {
-        width: 100%;
-    }
+  video {
+    height: 900px;
+    width: 100%;
+    object-fit: cover;
+  }
 }
 
-.nav-home{
+.nav-home {
     position: absolute;
     top: 0;
+    width: 100%;
     display: flex;
+    padding: 20px;
+    background-color: rgb(0, 0, 0,0.5);
 
-    img{
-        width: 10%;
+    .nav-imgHome {
+        width: 20%;
+        color: white;
     }
 
-}
+    .left-nav{
+        width: 20%;
+    }
 
+    .mid-nav{
+        width: 60%;
+        display: flex;
+
+        .content{
+            margin: auto;
+            display: flex;
+            width: fit-content;
+            gap: 20px;
+
+            .nav-linkHome{
+                text-decoration: none;
+                text-align: center;
+                font-size: 12px;
+                color: black;
+            }
+        }
+    }
+
+    .right-nav{
+        width: 16%;
+        margin: auto;
+
+        .content{
+            width: fit-content;
+            margin-left: auto;
+
+            h1{
+                font-size: 25px;    
+            }
+        }
+    }
+
+
+
+
+        
+}
 
 @media screen and (max-width: 1700px) and (min-width: 1150px) {
+  .info {
+    .left,
+    .right {
+      .text,
+      .text2 {
+        width: 100%;
+      }
 
-    .info{
-
-        .left, .right{
-
-            .text, .text2{
-                width: 100%;
-            }
-
-            img{
-                width: 110%;
-            }
-        }
+      img {
+        width: 110%;
+      }
     }
-
-    
-
-
+  }
 }
 
-
 @media screen and (max-width: 1150px) {
-    
-    .info{
-        display: block;
+  .info {
+    display: block;
 
-        .left, .right{
-            width: 100%;
-        }
+    .left,
+    .right {
+      width: 100%;
     }
-
+  }
 }
 
 @media screen and (max-width: 1390px) {
-    
-    nav{
-        display: block;
+  nav {
+    display: block;
 
-        .nav-img{
-            width: 10%;
-        }
+    .nav-img {
+      width: 10%;
     }
-
+  }
 }
