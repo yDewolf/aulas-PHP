@@ -25,7 +25,8 @@ nav {
 
 .info {
   display: flex;
-  margin-top: 100px;
+  margin-top: 75px;
+  margin-bottom: 75px;
 
   .left,
   .right {
@@ -67,14 +68,6 @@ nav {
   }
 }
 
-.info{
-
-  .h3Home{
-    color: #ffd100;
-  }
-
-}
-
 footer {
   margin-top: 50px;
   height: 150px;
@@ -94,7 +87,7 @@ footer {
     background-color: rgb(0, 0, 0,0.5);
 
     .nav-imgHome {
-        width: 23%;
+        width: 25%;
         color: white;
     }
 
@@ -154,6 +147,85 @@ footer {
 
   }
 }
+
+.infoHome {
+  display: flex;
+  background-image: url("https://sdmntprwestus2.oaiusercontent.com/files/00000000-1704-61f8-9359-0df849dacf29/raw?se=2025-05-19T16%3A51%3A02Z&sp=r&sv=2024-08-04&sr=b&scid=00000000-0000-0000-0000-000000000000&skoid=ea0c7534-f237-4ccd-b7ea-766c4ed977ad&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-05-19T05%3A35%3A45Z&ske=2025-05-20T05%3A35%3A45Z&sks=b&skv=2024-08-04&sig=3mS6RtD8GifHbD0m/hwWVn4eC/Xk6JwkHY6kA0zKUjQ%3D");
+
+  .left,
+  .right {
+    width: 50%;
+  }
+
+  .text {
+    margin-top: 10%;
+    width: 95%;
+    font-size: 25px;
+
+    .h3Home {
+      margin-top: 10px;
+      margin-bottom: 20px;
+      color: #ffd100;
+      font-family: "Poppins", sans-serif;
+      font-weight: 900;
+      font-size: 30px;
+    }
+
+    .pHome{
+      color: white;
+      font-family: "Poppins", sans-serif;
+      font-weight: 200;
+      font-size: 20px;
+    }
+  }
+
+  .text2 {
+    margin: auto;
+    width: 80%;
+    font-size: 25px;
+
+    .h3Home {
+      margin-top: 10px;
+      margin-bottom: 20px;
+      color: #ffd100;
+      font-family: "Poppins", sans-serif;
+      font-weight: 900;
+      font-size: 30px;
+    }
+
+    .pHome{
+      color: white;
+      font-family: "Poppins", sans-serif;
+      font-weight: 200;
+      font-size: 20px;
+    }
+  }
+
+  .info-img {
+    margin: auto;
+    width: 100%;
+
+    img {
+      margin: auto;
+      width: 100%;
+    }
+  }
+}
+
+hr{
+  margin: 0;
+  height: 10px;
+  background-color: #333533;
+  color: #333533;
+}
+
+.BG2{
+  background-image: none;
+  background-color: #202020;
+}
+
+
+
 
 @media screen and (max-width: 1700px) and (min-width: 1150px) {
   .info {
