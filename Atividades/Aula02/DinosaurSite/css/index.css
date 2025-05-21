@@ -148,9 +148,11 @@ footer {
   }
 }
 
+
 .infoHome {
   display: flex;
-  background-image: url("https://sdmntprwestus2.oaiusercontent.com/files/00000000-1704-61f8-9359-0df849dacf29/raw?se=2025-05-19T16%3A51%3A02Z&sp=r&sv=2024-08-04&sr=b&scid=00000000-0000-0000-0000-000000000000&skoid=ea0c7534-f237-4ccd-b7ea-766c4ed977ad&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-05-19T05%3A35%3A45Z&ske=2025-05-20T05%3A35%3A45Z&sks=b&skv=2024-08-04&sig=3mS6RtD8GifHbD0m/hwWVn4eC/Xk6JwkHY6kA0zKUjQ%3D");
+  background-image: url("../assets/imgs/fossilbg.png");
+  
 
   .left,
   .right {  
