@@ -6,76 +6,6 @@ body {
   background-color: #333533
 }
 
-nav {
-  display: flex;
-  padding: 20px;
-  background-color: rgb(226, 226, 226);
-
-  .nav-img {    
-    width: 7%;
-    margin-right: 30px;
-  }
-
-  .nav-link {
-    margin: auto;
-    text-decoration: none;
-    color: black;
-  }
-}
-
-.info {
-  display: flex;
-  margin-top: 75px;
-  margin-bottom: 75px;
-
-  .left,
-  .right {
-    width: 50%;
-  }
-
-  .text {
-    margin: auto;
-    width: 80%;
-    font-size: 25px;
-
-    h3 {
-      margin-top: 10px;
-      margin-bottom: 20px;
-    }
-  }
-
-  .text2 {
-    margin: auto;
-    text-align: right;
-    width: 80%;
-    font-size: 25px;
-
-    h3 {
-      margin-top: 10px;
-      margin-bottom: 20px;
-    }
-  }
-
-  .info-img {
-    margin: auto;
-    width: 75%;
-
-    img {
-      margin: auto;
-      width: 100%;
-      border-radius: 10px;
-    }
-  }
-}
-
-footer {
-  margin-top: 50px;
-  height: 150px;
-  background-color: rgb(185, 142, 0);
-}
-
-/* Home css part */
-
 .home-image{
   background-image: url("https://gaming-cdn.com/images/products/8421/screenshot/prehistoric-kingdom-pc-game-steam-wallpaper-4.jpg?v=1706028862");
 }
@@ -233,6 +163,10 @@ footer {
 
 .BGhadro{
   background-image: url(" https://crytivo.com/img/gamepages/pk/fea/4.png");
+}
+
+.BGsaurop{
+  background-image: url("https://pbs.twimg.com/media/Fe90lKBXkAIV5BT.jpg:large");
 }
 
 
