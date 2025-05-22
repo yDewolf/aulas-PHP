@@ -174,7 +174,19 @@ body {
 }
 
 .BGcarcha{
-  background-image: url("https://sm.ign.com/t/ign_in/video/p/prehistori/prehistoric-kingdom-official-update-14-launch-trailer_f7pw.1280.jpg");
+  background-image: url("https://scontent.fmii2-2.fna.fbcdn.net/v/t39.30808-6/488912022_1216486033812605_9008136407465034889_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=127cfc&_nc_ohc=hh_HA9NcZCIQ7kNvwGcOlc3&_nc_oc=AdnTeJD8urEtiO0ozpyRnUBGu8vVojE-bqf3eyrTthvpRQ6BvO2H9GoGBPEBaowGLxU&_nc_zt=23&_nc_ht=scontent.fmii2-2.fna&_nc_gid=SgTqID4jwdC5Zf5eAmMEsg&oh=00_AfK650Jwqy_rqJ_bYalDkjITO9xZXs81QFO_nrjAtC9WVg&oe=68355360");
+}
+
+.BGspino{
+  background-image: url("https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/666150/ss_c83bf9b436da4cec6e4e312be8496894afa8edba.1920x1080.jpg?t=1745580648")
+}
+
+.BGdroma{
+  background-image: url("https://images.squarespace-cdn.com/content/v1/5f5169d31c810e0faa346016/8508ef1c-2de3-4cff-b065-ee2f6a00887f/Velo+2.png")
+}
+
+.BGmami{
+  background-image: url("https://pbs.twimg.com/media/FLrMBt_VQAAjOBQ.jpg:large");
 }
 
 
