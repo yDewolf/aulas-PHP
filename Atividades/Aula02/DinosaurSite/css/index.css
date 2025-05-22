@@ -125,7 +125,7 @@ body {
 
   .text2 {
     margin: auto;
-    width: 80%;
+    width: 95%;
     font-size: 25px;
 
     .h3Home {
@@ -192,39 +192,38 @@ body {
 
 
 
-@media screen and (max-width: 1700px) and (min-width: 1150px) {
-  .info {
-    .left,
-    .right {
-      .text,
-      .text2 {
-        width: 100%;
-      }
-
-      img {
-        width: 110%;
-      }
-    }
-  }
-}
-
-@media screen and (max-width: 1150px) {
-  .info {
+@media screen and (max-width: 1200px){
+  .infoHome{
     display: block;
+    margin: auto;
 
-    .left,
-    .right {
+    .left, .right{
       width: 100%;
     }
+
+
   }
+
 }
 
-@media screen and (max-width: 1390px) {
-  nav {
-    display: block;
+@media screen and (max-width: 1391px){
 
-    .nav-img {
-      width: 10%;
-    }
+  .BGhadro{
+    display: none;
   }
+
+
 }
+
+@media screen and (min-width: 1391px){
+
+  .responsivenav{
+    display: none;
+  }
+
+
+}
+
+
+
+
