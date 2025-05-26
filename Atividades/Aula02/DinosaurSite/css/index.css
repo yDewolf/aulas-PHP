@@ -190,7 +190,30 @@ body {
 }
 
 
+@media screen and (max-width: 1024px) {
+  .image-content {
+    width: 100%;
+  }
 
+  .home-image, .text {
+    padding: 0 10px;
+  }
+
+  .nav-home {
+    flex-direction: column;
+    .mid-nav {
+      .content {
+        flex-direction: column;
+        margin: 0;
+        .nav-linkHome {
+          padding: 0 10px;
+          text-align: left;
+        }
+      }
+    }
+  }
+
+}
 
 @media screen and (max-width: 1200px){
   .infoHome{
@@ -203,27 +226,4 @@ body {
 
 
   }
-
 }
-
-@media screen and (max-width: 1391px){
-
-  .BGhadro{
-    display: none;
-  }
-
-
-}
-
-@media screen and (min-width: 1391px){
-
-  .responsivenav{
-    display: none;
-  }
-
-
-}
-
-
-
-
