@@ -3,7 +3,7 @@
 body {
   margin: 0;
   overflow-x: hidden;
-  background-color: #333533
+  background-color: #070707
 }
 
 .home-image{
@@ -190,7 +190,51 @@ body {
 }
 
 
+footer{
 
+  .text{
+    margin: auto;
+    margin-top: 30px;
+    width: 40%;
+
+    h2, h3{
+      text-align: center;
+      color: white;
+      font-family: "Poppins", sans-serif;
+    }
+
+    h2{
+      font-size: 38px;
+      margin-bottom: 0;
+      margin-top: 20px;
+    }
+
+    h3{
+      margin-top: 10px;
+      font-size: 20px;
+      font-weight: 200;
+    }
+  }
+
+  .social{
+    display: flex;
+    width: 40%;
+    margin: auto;
+    margin-top: 80px;
+    margin-bottom: 50px;
+
+    .imgs{
+      background-color: white;
+      margin: auto;
+      border-radius: 15px;
+      width: 8%;
+
+      img{
+        width: 100%;
+      }
+    }
+  }
+}
 
 @media screen and (max-width: 1200px){
   .infoHome{
@@ -199,6 +243,7 @@ body {
 
     .left, .right{
       width: 100%;
+
     }
 
 
