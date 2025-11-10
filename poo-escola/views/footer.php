@@ -1,6 +1,8 @@
 </div>
-<footer class="bg-dark text-white text-center py-3 mt-5">
-    <p>&copy; <?= date('Y'); ?> - Sistema de Alunos</p>
+<footer class="footer fixed" id="footer">
+    <div class="footer-content">
+        <p>&copy; <?= date('Y'); ?> - Sistema de Alunos</p>
+    </div>
 </footer>
 </body>
 </html>

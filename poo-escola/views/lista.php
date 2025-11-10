@@ -1,4 +1,3 @@
-<?php include 'views/header.php'; ?>
     <h2>Lista de Alunos</h2>
     <table class="table table-bordered">
         <thead>
@@ -14,4 +13,3 @@
             <?php endforeach; ?>
         </tbody>
     </table>
-<?php include 'views/footer.php'; ?>
